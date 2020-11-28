@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>test</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Je fait un test</title>
 </head>
 <body>
-	<ul id="nav">
-		<li class ="item1"><a href="">Item 1</a></li>
-		<li class ="item2"><a href="test.php">on vas sur le php</a></li>
-		<li class ="item3"><a href="">Item 3</a></li>
-		<li class ="item4"><a href="">Item 4</a></li>
-	</ul>
-	<div class="boop">box 2</div>
-	<div>box 1</div>
-
-	<div>box 1</div>
-	<div>box 1</div>
-	<div>box 1</div>
+	<?php include("./page.php"); ?> 
+	<main>
+		<p> Bon voilà du text pour voir si ça marche</p>
+		<div> <?php echo "ulna"; ?> </div>
+		<p>un autre text</p>
+	</main>
 </body>
 </html>
