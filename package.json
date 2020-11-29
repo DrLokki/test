@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "c'est la liste des filaments",
+  "main": "script.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.0.4",
+    "postcss": "^8.1.10",
+    "tailwindcss": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrLokki/test.git"
+  },
+  "keywords": [
+    "impression3D"
+  ],
+  "author": "Lokki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DrLokki/test/issues"
+  },
+  "homepage": "https://github.com/DrLokki/test#readme"
+}
