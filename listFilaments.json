@@ -1,282 +1,282 @@
 [
   {
-    "Marque": "Bq",
-    "prix": "19,98",
-    "prix bobine": "19,98",
-    "poids bobine": "1 000",
-    "matériaux": "PLA",
-    "qualité": 1
+    "brand": "Bq",
+    "price": "19,98",
+    "bobine_price": "19,98",
+    "bobine_weight": "1 000",
+    "material": "PLA",
+    "quality": 1
   },
   {
-    "Marque": "Amazonbasique",
-    "prix": "19,99",
-    "prix bobine": "19,99",
-    "poids bobine": "1 000",
-    "matériaux": "PLA",
-    "qualité": ""
+    "brand": "Amazonbasique",
+    "price": "19,99",
+    "bobine_price": "19,99",
+    "bobine_weight": "1 000",
+    "material": "PLA",
+    "quality": ""
   },
   {
-    "Marque": "Esun",
-    "prix": "19,99",
-    "prix bobine": "19,99",
-    "poids bobine": "1 000",
-    "matériaux": "PLA",
-    "qualité": ""
+    "brand": "Esun",
+    "price": "19,99",
+    "bobine_price": "19,99",
+    "bobine_weight": "1 000",
+    "material": "PLA",
+    "quality": ""
   },
   {
-    "Marque": "Wanhao",
-    "prix": "20,00",
-    "prix bobine": "20,00",
-    "poids bobine": "1 000",
-    "matériaux": "PLA",
-    "qualité": ""
+    "brand": "Wanhao",
+    "price": "20,00",
+    "bobine_price": "20,00",
+    "bobine_weight": "1 000",
+    "material": "PLA",
+    "quality": ""
   },
   {
-    "Marque": "Amazonbasique",
-    "prix": "20,99",
-    "prix bobine": "20,99",
-    "poids bobine": "1 000",
-    "matériaux": "PETG",
-    "qualité": ""
+    "brand": "Amazonbasique",
+    "price": "20,99",
+    "bobine_price": "20,99",
+    "bobine_weight": "1 000",
+    "material": "PETG",
+    "quality": ""
   },
   {
-    "Marque": "Emotion-Tech",
-    "prix": "20,99",
-    "prix bobine": "20,99",
-    "poids bobine": "1 000",
-    "matériaux": "PLA",
-    "qualité": 3
+    "brand": "Emotion-Tech",
+    "price": "20,99",
+    "bobine_price": "20,99",
+    "bobine_weight": "1 000",
+    "material": "PLA",
+    "quality": 3
   },
   {
-    "Marque": "Grossiste3D",
-    "prix": "21,80",
-    "prix bobine": "21,80",
-    "poids bobine": "1 000",
-    "matériaux": "PLA",
-    "qualité": 2
+    "brand": "Grossiste3D",
+    "price": "21,80",
+    "bobine_price": "21,80",
+    "bobine_weight": "1 000",
+    "material": "PLA",
+    "quality": 2
   },
   {
-    "Marque": "Ice Filamant",
-    "prix": "22,59",
-    "prix bobine": "16,94",
-    "poids bobine": "750",
-    "matériaux": "PLA",
-    "qualité": "1,5"
+    "brand": "Ice Filamant",
+    "price": "22,59",
+    "bobine_price": "16,94",
+    "bobine_weight": "750",
+    "material": "PLA",
+    "quality": "1,5"
   },
   {
-    "Marque": "Esun",
-    "prix": "22,99",
-    "prix bobine": "22,99",
-    "poids bobine": "1 000",
-    "matériaux": "PLA+",
-    "qualité": ""
+    "brand": "Esun",
+    "price": "22,99",
+    "bobine_price": "22,99",
+    "bobine_weight": "1 000",
+    "material": "PLA+",
+    "quality": ""
   },
   {
-    "Marque": "Sunlu",
-    "prix": "23,50",
-    "prix bobine": "23,50",
-    "poids bobine": "1 000",
-    "matériaux": "PETG",
-    "qualité": ""
+    "brand": "Sunlu",
+    "price": "23,50",
+    "bobine_price": "23,50",
+    "bobine_weight": "1 000",
+    "material": "PETG",
+    "quality": ""
   },
   {
-    "Marque": "Sunlu",
-    "prix": "23,50",
-    "prix bobine": "23,50",
-    "poids bobine": "1 000",
-    "matériaux": "PLA",
-    "qualité": "2,5"
+    "brand": "Sunlu",
+    "price": "23,50",
+    "bobine_price": "23,50",
+    "bobine_weight": "1 000",
+    "material": "PLA",
+    "quality": "2,5"
   },
   {
-    "Marque": "Esun",
-    "prix": "23,99",
-    "prix bobine": "23,99",
-    "poids bobine": "1 000",
-    "matériaux": "PLA-silk",
-    "qualité": ""
+    "brand": "Esun",
+    "price": "23,99",
+    "bobine_price": "23,99",
+    "bobine_weight": "1 000",
+    "material": "PLA-silk",
+    "quality": ""
   },
   {
-    "Marque": "Eryone",
-    "prix": "24,34",
-    "prix bobine": "24,34",
-    "poids bobine": "1 000",
-    "matériaux": "PLA-bois",
-    "qualité": 2
+    "brand": "Eryone",
+    "price": "24,34",
+    "bobine_price": "24,34",
+    "bobine_weight": "1 000",
+    "material": "PLA-bois",
+    "quality": 2
   },
   {
-    "Marque": "Prusament",
-    "prix": "24,99",
-    "prix bobine": "24,99",
-    "poids bobine": "1 000",
-    "matériaux": "PLA",
-    "qualité": 4
+    "brand": "Prusament",
+    "price": "24,99",
+    "bobine_price": "24,99",
+    "bobine_weight": "1 000",
+    "material": "PLA",
+    "quality": 4
   },
   {
-    "Marque": "Sunlu",
-    "prix": "25,27",
-    "prix bobine": "25,27",
-    "poids bobine": "1 000",
-    "matériaux": "PLA-silk",
-    "qualité": ""
+    "brand": "Sunlu",
+    "price": "25,27",
+    "bobine_price": "25,27",
+    "bobine_weight": "1 000",
+    "material": "PLA-silk",
+    "quality": ""
   },
   {
-    "Marque": "Geeetech",
-    "prix": "25,99",
-    "prix bobine": "25,99",
-    "poids bobine": "1 000",
-    "matériaux": "PLA-silk",
-    "qualité": ""
+    "brand": "Geeetech",
+    "price": "25,99",
+    "bobine_price": "25,99",
+    "bobine_weight": "1 000",
+    "material": "PLA-silk",
+    "quality": ""
   },
   {
-    "Marque": "Sunlu",
-    "prix": "26,96",
-    "prix bobine": "26,96",
-    "poids bobine": "1 000",
-    "matériaux": "PLA-marbre",
-    "qualité": ""
+    "brand": "Sunlu",
+    "price": "26,96",
+    "bobine_price": "26,96",
+    "bobine_weight": "1 000",
+    "material": "PLA-marbre",
+    "quality": ""
   },
   {
-    "Marque": "Eryone",
-    "prix": "26,99",
-    "prix bobine": "26,99",
-    "poids bobine": "1 000",
-    "matériaux": "PLA-silk",
-    "qualité": ""
+    "brand": "Eryone",
+    "price": "26,99",
+    "bobine_price": "26,99",
+    "bobine_weight": "1 000",
+    "material": "PLA-silk",
+    "quality": ""
   },
   {
-    "Marque": "Sunlu",
-    "prix": "27,94",
-    "prix bobine": "27,94",
-    "poids bobine": "1 000",
-    "matériaux": "PLA-bois",
-    "qualité": ""
+    "brand": "Sunlu",
+    "price": "27,94",
+    "bobine_price": "27,94",
+    "bobine_weight": "1 000",
+    "material": "PLA-bois",
+    "quality": ""
   },
   {
-    "Marque": "Arianplaste",
-    "prix": "28,50",
-    "prix bobine": "28,50",
-    "poids bobine": "1 000",
-    "matériaux": "PLA",
-    "qualité": ""
+    "brand": "Arianplaste",
+    "price": "28,50",
+    "bobine_price": "28,50",
+    "bobine_weight": "1 000",
+    "material": "PLA",
+    "quality": ""
   },
   {
-    "Marque": "Prusament",
-    "prix": "29,99",
-    "prix bobine": "29,99",
-    "poids bobine": "1 000",
-    "matériaux": "PETG",
-    "qualité": ""
+    "brand": "Prusament",
+    "price": "29,99",
+    "bobine_price": "29,99",
+    "bobine_weight": "1 000",
+    "material": "PETG",
+    "quality": ""
   },
   {
-    "Marque": "Sunlu",
-    "prix": "30,33",
-    "prix bobine": "30,33",
-    "poids bobine": "1 000",
-    "matériaux": "PLA-carbon",
-    "qualité": ""
+    "brand": "Sunlu",
+    "price": "30,33",
+    "bobine_price": "30,33",
+    "bobine_weight": "1 000",
+    "material": "PLA-carbon",
+    "quality": ""
   },
   {
-    "Marque": "CCTREE",
-    "prix": "31,44",
-    "prix bobine": "31,44",
-    "poids bobine": "1 000",
-    "matériaux": "PLA",
-    "qualité": 2
+    "brand": "CCTREE",
+    "price": "31,44",
+    "bobine_price": "31,44",
+    "bobine_weight": "1 000",
+    "material": "PLA",
+    "quality": 2
   },
   {
-    "Marque": "Polaroid",
-    "prix": "32,70",
-    "prix bobine": "32,70",
-    "poids bobine": "1 000",
-    "matériaux": "PLA",
-    "qualité": 2
+    "brand": "Polaroid",
+    "price": "32,70",
+    "bobine_price": "32,70",
+    "bobine_weight": "1 000",
+    "material": "PLA",
+    "quality": 2
   },
   {
-    "Marque": "Prusament",
-    "prix": "35,28",
-    "prix bobine": "29,99",
-    "poids bobine": "850",
-    "matériaux": "ASA",
-    "qualité": ""
+    "brand": "Prusament",
+    "price": "35,28",
+    "bobine_price": "29,99",
+    "bobine_weight": "850",
+    "material": "ASA",
+    "quality": ""
   },
   {
-    "Marque": "Innofils3d",
-    "prix": "44,72",
-    "prix bobine": "33,54",
-    "poids bobine": "750",
-    "matériaux": "PLA",
-    "qualité": 4
+    "brand": "Innofils3d",
+    "price": "44,72",
+    "bobine_price": "33,54",
+    "bobine_weight": "750",
+    "material": "PLA",
+    "quality": 4
   },
   {
-    "Marque": "Arianplaste",
-    "prix": "45,44",
-    "prix bobine": "29,99",
-    "poids bobine": "660",
-    "matériaux": "PLA-bois",
-    "qualité": ""
+    "brand": "Arianplaste",
+    "price": "45,44",
+    "bobine_price": "29,99",
+    "bobine_weight": "660",
+    "material": "PLA-bois",
+    "quality": ""
   },
   {
-    "Marque": "Prusament",
-    "prix": "49,99",
-    "prix bobine": "49,99",
-    "poids bobine": "1 000",
-    "matériaux": "PC",
-    "qualité": ""
+    "brand": "Prusament",
+    "price": "49,99",
+    "bobine_price": "49,99",
+    "bobine_weight": "1 000",
+    "material": "PC",
+    "quality": ""
   },
   {
-    "Marque": "Colorfabb",
-    "prix": "53,33",
-    "prix bobine": "79,99",
-    "poids bobine": "1 500",
-    "matériaux": "PLA-bronze",
-    "qualité": ""
+    "brand": "Colorfabb",
+    "price": "53,33",
+    "bobine_price": "79,99",
+    "bobine_weight": "1 500",
+    "material": "PLA-bronze",
+    "quality": ""
   },
   {
-    "Marque": "Formfutura",
-    "prix": "57,84",
-    "prix bobine": "28,92",
-    "poids bobine": "500",
-    "matériaux": "PLA-bois",
-    "qualité": ""
+    "brand": "Formfutura",
+    "price": "57,84",
+    "bobine_price": "28,92",
+    "bobine_weight": "500",
+    "material": "PLA-bois",
+    "quality": ""
   },
   {
-    "Marque": "Volumic",
-    "prix": "58,80",
-    "prix bobine": "58,80",
-    "poids bobine": "1 000",
-    "matériaux": "PLC",
-    "qualité": ""
+    "brand": "Volumic",
+    "price": "58,80",
+    "bobine_price": "58,80",
+    "bobine_weight": "1 000",
+    "material": "PLC",
+    "quality": ""
   },
   {
-    "Marque": "Emotion-Tech",
-    "prix": "59,87",
-    "prix bobine": "44,90",
-    "poids bobine": "750",
-    "matériaux": "PLA-bronze",
-    "qualité": ""
+    "brand": "Emotion-Tech",
+    "price": "59,87",
+    "bobine_price": "44,90",
+    "bobine_weight": "750",
+    "material": "PLA-bronze",
+    "quality": ""
   },
   {
-    "Marque": "Emotion-Tech",
-    "prix": "59,87",
-    "prix bobine": "44,90",
-    "poids bobine": "750",
-    "matériaux": "PLA-cuivre",
-    "qualité": ""
+    "brand": "Emotion-Tech",
+    "price": "59,87",
+    "bobine_price": "44,90",
+    "bobine_weight": "750",
+    "material": "PLA-cuivre",
+    "quality": ""
   },
   {
-    "Marque": "Colorfabb",
-    "prix": "59,99",
-    "prix bobine": "44,99",
-    "poids bobine": "750",
-    "matériaux": "LW-PLA",
-    "qualité": ""
+    "brand": "Colorfabb",
+    "price": "59,99",
+    "bobine_price": "44,99",
+    "bobine_weight": "750",
+    "material": "LW-PLA",
+    "quality": ""
   },
   {
-    "Marque": "Emotion-Flex",
-    "prix": "69,79",
-    "prix bobine": "52,34",
-    "poids bobine": "750",
-    "matériaux": "TPU",
-    "qualité": ""
+    "brand": "Emotion-Flex",
+    "price": "69,79",
+    "bobine_price": "52,34",
+    "bobine_weight": "750",
+    "material": "TPU",
+    "quality": ""
   }
 ]
