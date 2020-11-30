@@ -1,4 +1,4 @@
-let list = JSON("../listFilaments.json")
+let list = JSON.parse("../listFilaments.json")
 let table = document.getElementsByTagName('tr')
 
 for (let i = 0; i <= 10; i++){
