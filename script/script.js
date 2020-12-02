@@ -1,5 +1,11 @@
-let list = JSON.parse("../listFilaments.json")
+let list
 let table = document.getElementsByTagName('tr')
+
+$(document).ready(function(){
+  $.getJSON("./listFilaments.json",function(json){
+    list = json
+  })
+})
 
 for (let i = 0; i <= 10; i++){
 	let tableLine = table[i].getElementsByTagName('th')
