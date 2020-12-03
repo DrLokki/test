@@ -117,10 +117,10 @@
 				</tbody>
 			</table>
 			<nav>
-				<div><button class="w-1/2 flex items-center justify-center rounded-full bg-indigo-700 text-white" type="button" onclick="index=0;updateTable(index)">first</button></div>
-				<div><button class="w-1/2 flex items-center justify-center rounded-full bg-indigo-500 text-white" type="button" onclick="updateTable(index--)">prev</button></div>
-				<div><button class="w-1/2 flex items-center justify-center rounded-full bg-indigo-500 text-white" type="button" onclick="updateTable(index++)">next</button></div>
-				<div><button class="w-1/2 flex items-center justify-center rounded-full bg-indigo-700 text-white" type="button" onclick="index=listF.length;updateTable(index)">last</button></div>
+				<div><button class="items-center justify-center rounded-full bg-indigo-700 text-white" type="button" onclick="index=0;updateTable(index)">first</button></div>
+				<div><button class="items-center justify-center rounded-full bg-indigo-500 text-white" type="button" onclick="index-=10;updateTable(index)">prev</button></div>
+				<div><button class="items-center justify-center rounded-full bg-indigo-500 text-white" type="button" onclick="index+=10;updateTable(index)">next</button></div>
+				<div><button class="items-center justify-center rounded-full bg-indigo-700 text-white" type="button" onclick="index=listF.length-10;updateTable(index)">last</button></div>
 			</nav>
 		</section>
 	</main>
