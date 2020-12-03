@@ -1,15 +1,23 @@
-let table = document.getElementsByTagName('tr')
-let i = 0
+let listF;
+let index = 0;
+
+function updateTable(i){
+	let table = document.querySelectorAll("tbody>tr")
+
+	for (let v of table){
+		let tableLine = v.getElementsByTagName('td')
+		for (let cel of tableLine) {
+			let className = cel.classList[0]
+			console.log(className)
+			cel.innerHTML = listF[i][className] !== "" ? listF[i][className] : "NC"
+		}
+		i++
+	}
+}
 
 $(document).ready(function(){
-	$.getJSON("./listFilaments.json",function(list){
-		for (let v of table){
-			let tableLine = v.getElementsByTagName('th')
-			for (let cel of tableLine) {
-				tableLine.innerHTML = list[i][tableLine.className] != "" ? list[i][tableLine.className] : "NC" 
-			}
-			i++
-		}
+	$.getJSON("./test.json",function(file){
+		listF = file
+		updateTable(0)
 	})
 })
-
