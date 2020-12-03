@@ -16,7 +16,7 @@ function updateTable(i){
 }
 
 $(document).ready(function(){
-	$.getJSON("./test.json",function(file){
+	$.getJSON("../listFilaments.json",function(file){
 		listF = file
 		updateTable(0)
 	})
