@@ -121,19 +121,19 @@
 			</table>
 			<nav class="grid my-5 justify-items-center sm:ml-40 ml-80 pl-20" aria-label="Pagination">
 				<div>
-				<button class="px-1 sm:px-5 py-1 items-center inline-flex justify-center rounded-full bg-indigo-700" type="button" onclick="navTable('first')">
+				<button class="px-1 sm:px-5 py-1 items-center inline-flex justify-center rounded-full bg-indigo-700" type="button" onclick="index=0;updateTable(index)">
 					<img class="h-4 w-4 mr-1 sm:mr-2" src="./img/larrow-8.png">
 					<span class="hidden self-center sm:inline-flex text-white">first</span>
 				</button>
-				<button class="px-1 sm:px-5 py-1 items-center inline-flex justify-center rounded-full bg-indigo-500" type="button" onclick="navTable('prev')">
+				<button class="px-1 sm:px-5 py-1 items-center inline-flex justify-center rounded-full bg-indigo-500" type="button" onclick="index-=10;updateTable(index)">
 					<img class="h-4 w-4 mr-1 sm:mr-2" src="./img/larrow-7.png">
 					<span class="hidden self-center sm:inline-flex text-white">prev</span>
 				</button>
-				<button class="px-1 sm:px-5 py-1 items-center inline-flex justify-center rounded-full bg-indigo-500" type="button" onclick="navTable('next')">
+				<button class="px-1 sm:px-5 py-1 items-center inline-flex justify-center rounded-full bg-indigo-500" type="button" onclick="index+=10;updateTable(index)">
 					<span class="hidden self-center sm:inline-flex text-white">next</span>
 					<img class="h-4 w-4 ml-1 sm:ml-2" src="./img/rarrow-7.png">
 				</button>
-				<button class="px-1 sm:px-5 py-1 items-center inline-flex justify-center rounded-full bg-indigo-700" type="button" onclick="navTable('last')">
+				<button class="px-1 sm:px-5 py-1 items-center inline-flex justify-center rounded-full bg-indigo-700" type="button" onclick="index=listF.length-10;updateTable(index)">
 					<span class="hidden self-center sm:inline-flex text-white">last</span>
 					<img class="h-4 w-4 ml-1 sm:ml-2" src="./img/rarrow-8.png">
 				</button>	
