@@ -11,116 +11,133 @@
 <body>
 	<script type="text/javascript" src="script/script.js"></script>
 	<header>
-		<nav class="menu">
-			<div>Menu</div>
-			<ul>
-				<li>liste des filaments</li>
-				<li>comparatif</li>
-				<li>ajouter un filaments</li>
+		<nav class="flex bg-indigo-700 text-white font-sans font-semibold sm:justify-center justify-end items-baseline">
+			<div class="sm:hidden flex py-2 mx-10">
+			<span class="self-center">Menu</span>
+			<img class="h-7 w-7" src="./img/burger.svg">
+			</div>
+			<ul class="hidden sm:flex py-2">
+				<li class="px-5">liste des filaments</li>
+				<li class="px-5">comparatif</li>
+				<li class="px-5">ajouter un filaments</li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<section>
-			<table class="table-auto shadow-md">
-				<thead class="divide-y divide-indigo-900 ">
+		<section class="grid justify-items-stretch">
+			<table class="table-auto shadow-md justify-self-center px-5">
+				<thead class="divide-y align-middle divide-indigo-900">
 					<tr>
-						<th class=" ">Marque</th>
-						<th class=" ">Prix au kg</th>
-						<th class=" ">Prix bobine</th>
-						<th class=" ">Matériaux</th>
-						<th class=" ">Poid bobine</th>
-						<th class=" ">Qualité</th>
+						<th scope="col" class="tracking-wider px-1 md:px-3">Marque</th>
+						<th scope="col" class="tracking-wider px-1 md:px-3">Prix au kg</th>
+						<th scope="col" class="tracking-wider px-1 md:px-3">Prix bobine</th>
+						<th scope="col" class="tracking-wider px-1 md:px-3">Matériaux</th>
+						<th scope="col" class="tracking-wider px-1 md:px-3">Poid bobine</th>
+						<th scope="col" class="tracking-wider px-1 md:px-3">Qualité</th>
 					</tr>
 				</thead>
-				<tbody class="divide-y divide-indigo-900 ">
+				<tbody class="divide-y divide-indigo-900 align-middle min-w-full">
 					<tr>
-						<td class="brand  hover:bg-blue-200"></td>
-						<td class="price  hover:bg-blue-200"></td>
-						<td class="bobine_price  hover:bg-blue-200"></td>
-						<td class="material  hover:bg-blue-200"></td>
-						<td class="bobine_weight  hover:bg-blue-200"></td>
-						<td class="quality  hover:bg-blue-200"></td>
+						<td class="brand px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="material px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_weight px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="quality px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
 					</tr>
 					<tr>
-						<td class="brand  hover:bg-blue-200"></td>
-						<td class="price  hover:bg-blue-200"></td>
-						<td class="bobine_price  hover:bg-blue-200"></td>
-						<td class="material  hover:bg-blue-200"></td>
-						<td class="bobine_weight  hover:bg-blue-200"></td>
-						<td class="quality  hover:bg-blue-200"></td>
+						<td class="brand px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="material px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_weight px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="quality px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
 					</tr>
 					<tr>
-						<td class="brand  hover:bg-blue-200"></td>
-						<td class="price  hover:bg-blue-200"></td>
-						<td class="bobine_price  hover:bg-blue-200"></td>
-						<td class="material  hover:bg-blue-200"></td>
-						<td class="bobine_weight  hover:bg-blue-200"></td>
-						<td class="quality  hover:bg-blue-200"></td>
+						<td class="brand px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="material px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_weight px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="quality px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
 					</tr>
 					<tr>
-						<td class="brand  hover:bg-blue-200"></td>
-						<td class="price  hover:bg-blue-200"></td>
-						<td class="bobine_price  hover:bg-blue-200"></td>
-						<td class="material  hover:bg-blue-200"></td>
-						<td class="bobine_weight  hover:bg-blue-200"></td>
-						<td class="quality  hover:bg-blue-200"></td>
+						<td class="brand px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="material px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_weight px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="quality px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
 					</tr>
 					<tr>
-						<td class="brand  hover:bg-blue-200"></td>
-						<td class="price  hover:bg-blue-200"></td>
-						<td class="bobine_price  hover:bg-blue-200"></td>
-						<td class="material  hover:bg-blue-200"></td>
-						<td class="bobine_weight  hover:bg-blue-200"></td>
-						<td class="quality  hover:bg-blue-200"></td>
+						<td class="brand px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="material px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_weight px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="quality px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
 					</tr>
 					<tr>
-						<td class="brand  hover:bg-blue-200"></td>
-						<td class="price  hover:bg-blue-200"></td>
-						<td class="bobine_price  hover:bg-blue-200"></td>
-						<td class="material  hover:bg-blue-200"></td>
-						<td class="bobine_weight  hover:bg-blue-200"></td>
-						<td class="quality  hover:bg-blue-200"></td>
+						<td class="brand px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="material px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_weight px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="quality px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
 					</tr>
 					<tr>
-						<td class="brand  hover:bg-blue-200"></td>
-						<td class="price  hover:bg-blue-200"></td>
-						<td class="bobine_price  hover:bg-blue-200"></td>
-						<td class="material  hover:bg-blue-200"></td>
-						<td class="bobine_weight  hover:bg-blue-200"></td>
-						<td class="quality  hover:bg-blue-200"></td>
+						<td class="brand px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="material px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_weight px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="quality px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
 					</tr>
 					<tr>
-						<td class="brand  hover:bg-blue-200"></td>
-						<td class="price  hover:bg-blue-200"></td>
-						<td class="bobine_price  hover:bg-blue-200"></td>
-						<td class="material  hover:bg-blue-200"></td>
-						<td class="bobine_weight  hover:bg-blue-200"></td>
-						<td class="quality  hover:bg-blue-200"></td>
+						<td class="brand px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="material px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_weight px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="quality px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
 					</tr>
 					<tr>
-						<td class="brand  hover:bg-blue-200"></td>
-						<td class="price  hover:bg-blue-200"></td>
-						<td class="bobine_price  hover:bg-blue-200"></td>
-						<td class="material  hover:bg-blue-200"></td>
-						<td class="bobine_weight  hover:bg-blue-200"></td>
-						<td class="quality  hover:bg-blue-200"></td>
+						<td class="brand px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="material px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_weight px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="quality px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
 					</tr>
 					<tr>
-						<td class="brand  hover:bg-blue-200"></td>
-						<td class="price  hover:bg-blue-200"></td>
-						<td class="bobine_price  hover:bg-blue-200"></td>
-						<td class="material  hover:bg-blue-200"></td>
-						<td class="bobine_weight  hover:bg-blue-200"></td>
-						<td class="quality  hover:bg-blue-200"></td>
+						<td class="brand px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_price px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="material px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="bobine_weight px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
+						<td class="quality px-1 sm:px-3 hover:bg-blue-200 text-center">Valeur test</td>
 					</tr>
 				</tbody>
 			</table>
-			<nav>
-				<div><button class="items-center justify-center rounded-full bg-indigo-700 text-white" type="button" onclick="index=0;updateTable(index)">first</button></div>
-				<div><button class="items-center justify-center rounded-full bg-indigo-500 text-white" type="button" onclick="index-=10;updateTable(index)">prev</button></div>
-				<div><button class="items-center justify-center rounded-full bg-indigo-500 text-white" type="button" onclick="index+=10;updateTable(index)">next</button></div>
-				<div><button class="items-center justify-center rounded-full bg-indigo-700 text-white" type="button" onclick="index=listF.length-10;updateTable(index)">last</button></div>
+			<nav class="grid my-5 justify-items-center sm:ml-40 ml-80 pl-20" aria-label="Pagination">
+				<div>
+				<button class="px-1 sm:px-5 py-1 items-center inline-flex justify-center rounded-full bg-indigo-700" type="button" onclick="navTable('first')">
+					<img class="h-4 w-4 mr-1 sm:mr-2" src="./img/larrow-8.png">
+					<span class="hidden self-center sm:inline-flex text-white">first</span>
+				</button>
+				<button class="px-1 sm:px-5 py-1 items-center inline-flex justify-center rounded-full bg-indigo-500" type="button" onclick="navTable('prev')">
+					<img class="h-4 w-4 mr-1 sm:mr-2" src="./img/larrow-7.png">
+					<span class="hidden self-center sm:inline-flex text-white">prev</span>
+				</button>
+				<button class="px-1 sm:px-5 py-1 items-center inline-flex justify-center rounded-full bg-indigo-500" type="button" onclick="navTable('next')">
+					<span class="hidden self-center sm:inline-flex text-white">next</span>
+					<img class="h-4 w-4 ml-1 sm:ml-2" src="./img/rarrow-7.png">
+				</button>
+				<button class="px-1 sm:px-5 py-1 items-center inline-flex justify-center rounded-full bg-indigo-700" type="button" onclick="navTable('last')">
+					<span class="hidden self-center sm:inline-flex text-white">last</span>
+					<img class="h-4 w-4 ml-1 sm:ml-2" src="./img/rarrow-8.png">
+				</button>	
+				</div>
 			</nav>
 		</section>
 	</main>
@@ -129,10 +146,10 @@
 			<ul>
 				<li></li>
 				<li></li>
-				<li></li>
+				<li><a href="credit.html">Page des credits</a></li>
 			</ul>
 		</nav>
-		<span>&copy Fowyscience</span>
+		<span>&copy Foxyscience</span>
 	</footer>
 </body>
 </html>
