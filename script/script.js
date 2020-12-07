@@ -3,12 +3,12 @@ let index = 0;
 let lenList = 0;
 
 const line = {
-    "brand": "",
-    "price": "",
-    "bobine_price": "",
-    "bobine_weight": "",
-    "material": "",
-    "quality": ""
+    "brand": "-",
+    "price": "-",
+    "bobine_price": "-",
+    "bobine_weight": "-",
+    "material": "-",
+    "quality": "-"
   }
 
 function updateTable(i){
@@ -29,8 +29,8 @@ $(document).ready(function(){
 	$.getJSON("../listFilaments.json",function(file){
 		listF = file
 		updateTable(0)
-		lenList = listF.length%10
-		
+		lenList = listF.length % 10
+
 		if (lenList !== 0){
 			for (let i = 0; i <= lenList; i++){
 				listF.push(line)
