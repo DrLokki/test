@@ -11,6 +11,8 @@ module.exports = {
       lg: '1024px',
       xl: '1280px',
       '2xl': '1536px',
+      ipho: '320px',
+      tbl: '420px'
     },
     colors: {
       transparent: 'transparent',
@@ -842,7 +844,7 @@ module.exports = {
     transitionDuration: ['responsive'],
     transitionProperty: ['responsive'],
     transitionTimingFunction: ['responsive'],
-    translate: ['responsive', 'hover', 'focus'],
+    translate: ['responsive', 'hover', 'focus', 'active'],
     userSelect: ['responsive'],
     verticalAlign: ['responsive'],
     visibility: ['responsive'],
