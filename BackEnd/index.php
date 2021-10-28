@@ -4,16 +4,18 @@ use App\Autoloader;
 require 'Autoloader.php';
 Autoloader::register();
 
-use App\Controller;
+use App\Controller\HomeController;
 
-$controller = new Controller();
+$home = new HomeController();
 
-switch ($_SERVER['REQUEST_URI']) {
-	case 'test':
-		// code...
+$uri = preg_split("%\?%",$_SERVER['REQUEST_URI']);
+// var_dump($uri[0]);
+switch ($uri[0]) {
+	case '/one':
+		$home->one();
 		break;
 	default:
-		$controller->index(post('test'));
+		$home->index();
 		break;
 }
 
