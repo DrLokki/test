@@ -1,0 +1,326 @@
+[
+  {
+    "brand": "Wanhao",
+    "price": 14.9,
+    "bobine_price": 14.9,
+    "bobine_weight": 1000,
+    "material": "PLA",
+  },
+  {
+    "brand": "Sunlu",
+    "price": 15.72,
+    "bobine_price": 15.72,
+    "bobine_weight": 1000,
+    "material": "PETG",
+  },
+  {
+    "brand": "Sunlu",
+    "price": 17.38,
+    "bobine_price": 17.38,
+    "bobine_weight": 1000,
+    "material": "PLA",
+    "quality": 2.5
+  },
+  {
+    "brand": "Grossiste3D",
+    "price": 18.8,
+    "bobine_price": 18.8,
+    "bobine_weight": 1000,
+    "material": "PLA",
+    "quality": 2
+  },
+  {
+    "brand": "Sunlu",
+    "price": 19.86,
+    "bobine_price": 19.86,
+    "bobine_weight": 1000,
+    "material": "PLA-silk"
+  },
+  {
+    "brand": "Sunlu",
+    "price": 19.86,
+    "bobine_price": 19.86,
+    "bobine_weight": 1000,
+    "material": "PLA-marbre"
+  },
+  {
+    "brand": "Esun",
+    "price": 19.9,
+    "bobine_price": 19.9,
+    "bobine_weight": 1000,
+    "material": "PLA"
+  },
+  {
+    "brand": "Esun",
+    "price": 19.9,
+    "bobine_price": 19.9,
+    "bobine_weight": 1000,
+    "material": "PLA+"
+  },
+  {
+    "brand": "Bq",
+    "price": 19.98,
+    "bobine_price": 19.98,
+    "bobine_weight": 1000,
+    "material": "PLA",
+    "quality": 1
+  },
+  {
+    "brand": "Amazonbasique",
+    "price": 19.99,
+    "bobine_price": 19.99,
+    "bobine_weight": 1000,
+    "material": "PLA"
+  },
+  {
+    "brand": "Esun",
+    "price": 19.99,
+    "bobine_price": 19.99,
+    "bobine_weight": 1000,
+    "material": "PLA-silk"
+  },
+  {
+    "brand": "Amazonbasique",
+    "price": 20.99,
+    "bobine_price": 20.99,
+    "bobine_weight": 1000,
+    "material": "PETG"
+  },
+  {
+    "brand": "Emotion-Tech",
+    "price": 20.99,
+    "bobine_price": 20.99,
+    "bobine_weight": 1000,
+    "material": "PLA",
+    "quality": 3
+  },
+  {
+    "brand": "Sunlu",
+    "price": 21.52,
+    "bobine_price": 21.52,
+    "bobine_weight": 1000,
+    "material": "PLA-bois"
+  },
+  {
+    "brand": "CCTREE",
+    "price": 21.99,
+    "bobine_price": 21.99,
+    "bobine_weight": 1000,
+    "material": "PLA",
+    "quality": 2
+  },
+  {
+    "brand": "3djake",
+    "price": 21.99,
+    "bobine_price": 21.99,
+    "bobine_weight": 1000,
+    "material": "PLA"
+  },
+  {
+    "brand": "Ice Filamant",
+    "price": 22.59,
+    "bobine_price": 16.94,
+    "bobine_weight": 750,
+    "material": "PLA",
+    "quality": 1.5
+  },
+  {
+    "brand": "Spectrum",
+    "price": 22.8,
+    "bobine_price": 22.8,
+    "bobine_weight": 1000,
+    "material": "PLA"
+  },
+  {
+    "brand": "Arianplaste",
+    "price": 24.48,
+    "bobine_price": 24.48,
+    "bobine_weight": 1000,
+    "material": "PLA"
+  },
+  {
+    "brand": "Prusament",
+    "price": 24.99,
+    "bobine_price": 24.99,
+    "bobine_weight": 1000,
+    "material": "PLA",
+    "quality": 4
+  },
+  {
+    "brand": "Masterpool",
+    "price": 25.2,
+    "bobine_price": 18.9,
+    "bobine_weight": 750,
+    "material": "PLA"
+  },
+  {
+    "brand": "Sunlu",
+    "price": 25.66,
+    "bobine_price": 25.66,
+    "bobine_weight": 1000,
+    "material": "PLA-carbon"
+  },
+  {
+    "brand": "Geeetech",
+    "price": 25.99,
+    "bobine_price": 25.99,
+    "bobine_weight": 1000,
+    "material": "PLA-silk"
+  },
+  {
+    "brand": "Eryone",
+    "price": 26.99,
+    "bobine_price": 26.99,
+    "bobine_weight": 1000,
+    "material": "PLA-silk"
+  },
+  {
+    "brand": "Eryone",
+    "price": 28.89,
+    "bobine_price": 28.89,
+    "bobine_weight": 1000,
+    "material": "PLA-bois"
+  },
+  {
+    "brand": "Prusament",
+    "price": 29.99,
+    "bobine_price": 29.99,
+    "bobine_weight": 1000,
+    "material": "PETG"
+  },
+  {
+    "brand": "Prusament",
+    "price": 35.28,
+    "bobine_price": 29.99,
+    "bobine_weight": 850,
+    "material": "ASA"
+  },
+  {
+    "brand": "Rosa3D",
+    "price": 37.49,
+    "bobine_price": 29.99,
+    "bobine_weight": 800,
+    "material": "PLA"
+  },
+  {
+    "brand": "Innofils3d",
+    "price": 38.56,
+    "bobine_price": 28.92,
+    "bobine_weight": 750,
+    "material": "PLA",
+    "quality": 4
+  },
+  {
+    "brand": "Polaroid",
+    "price": 40.17,
+    "bobine_price": 40.17,
+    "bobine_weight": 1000,
+    "material": "PLA",
+    "quality": 2
+  },
+  {
+    "brand": "Rosa3D",
+    "price": 40.49,
+    "bobine_price": 32.39,
+    "bobine_weight": 800,
+    "material": "PETG"
+  },
+  {
+    "brand": "Filmentum",
+    "price": 42.65,
+    "bobine_price": 31.99,
+    "bobine_weight": 750,
+    "material": "PLA"
+  },
+  {
+    "brand": "Owa",
+    "price": 44.39,
+    "bobine_price": 33.29,
+    "bobine_weight": 750,
+    "material": "PS"
+  },
+  {
+    "brand": "Arianplaste",
+    "price": 45.44,
+    "bobine_price": 29.99,
+    "bobine_weight": 660,
+    "material": "PLA-bois"
+  },
+  {
+    "brand": "Rosa3D",
+    "price": 46.27,
+    "bobine_price": 32.39,
+    "bobine_weight": 700,
+    "material": "ASA"
+  },
+  {
+    "brand": "Prusament",
+    "price": 49.99,
+    "bobine_price": 49.99,
+    "bobine_weight": 1000,
+    "material": "PC"
+  },
+  {
+    "brand": "Volumic",
+    "price": 58.8,
+    "bobine_price": 58.8,
+    "bobine_weight": 1000,
+    "material": "PLC"
+  },
+  {
+    "brand": "Emotion-Tech",
+    "price": 59.87,
+    "bobine_price": 44.9,
+    "bobine_weight": 750,
+    "material": "PLA-bronze"
+  },
+  {
+    "brand": "Emotion-Tech",
+    "price": 59.87,
+    "bobine_price": 44.9,
+    "bobine_weight": 750,
+    "material": "PLA-cuivre"
+  },
+  {
+    "brand": "Colorfabb",
+    "price": 59.99,
+    "bobine_price": 44.99,
+    "bobine_weight": 750,
+    "material": "LW-PLA"
+  },
+  {
+    "brand": "Formfutura",
+    "price": 65.98,
+    "bobine_price": 32.99,
+    "bobine_weight": 500,
+    "material": "PLA-bois"
+  },
+  {
+    "brand": "Emotion-Flex",
+    "price": 69.79,
+    "bobine_price": 52.34,
+    "bobine_weight": 750,
+    "material": "TPU"
+  },
+  {
+    "brand": "Innofils3d",
+    "price": 79.2,
+    "bobine_price": 59.4,
+    "bobine_weight": 750,
+    "material": "PLA"
+  },
+  {
+    "brand": "Colorfabb",
+    "price": 89.6,
+    "bobine_price": 67.2,
+    "bobine_weight": 750,
+    "material": "PLA-bronze"
+  },
+  {
+    "brand": "Innofils3d",
+    "price": 114.17,
+    "bobine_price": 39.96,
+    "bobine_weight": 350,
+    "material": "BVOH"
+  }
+]
