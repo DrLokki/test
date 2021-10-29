@@ -2,7 +2,7 @@
 
 namespace App\Model\Repository;
 
-use App\model\Crendential;
+use App\Model\Crendential;
 use App\Model\Entity\Filament;
 
 /**
@@ -22,11 +22,12 @@ class RepositoryFilament
 
 	public function newLine($obj)
 	{
-		$statement = $this->pdo->prepare('INSERT INTO filament(brand,bobine_price,bobine_weight,material) VALUES(:brand,:bobine_price,:bobine_weight,:material)');
+		$statement = $this->pdo->prepare('INSERT INTO filament(brand,bobine_price,bobine_weight,material,quality) VALUES(:brand,:bobine_price,:bobine_weight,:material,:quality)');
 		$statement->bindValue(':brand',$obj->getBrand(),\PDO::PARAM_STR);
 		$statement->bindValue(':bobine_price',$obj->getBobinePrice(),\PDO::PARAM_INT);
 		$statement->bindValue(':bobine_weight',$obj->getBobineWeight(),\PDO::PARAM_INT);
 		$statement->bindValue(':material',$obj->getMaterial(),\PDO::PARAM_STR);
+		$statement->bindValue(':quality',$obj->getQuality(),\PDO::PARAM_INT);
 		$statement->execute();
 	}
 
@@ -104,4 +105,5 @@ class RepositoryFilament
 			return $filament[0];
 		}
 	}
+
 }
