@@ -69,7 +69,7 @@ const Home = props => {
 				setIndex(1)
 				break
 			case 'last':
-				setIndex(list.length/20)
+				setIndex(Math.ceil(list.length/20))
 				break
 			case 'next' :
 				if (index <= list.length/20){
@@ -115,15 +115,15 @@ const Home = props => {
 			<Header/>
 			<main>
 				<section className="grid justify-items-stretch">
-					<table className="tbl:transition duration-200 table-auto mt-10 shadow-xl justify-self-center text-xs tbl:text-base ">
+					<table className="rounded tbl:transition duration-200 table-auto mt-10 shadow-xl justify-self-center text-xs tbl:text-base ">
 						<thead className="lg:transition duration-200 divide-y align-middle divide-indigo-900 lg:text-2xl">
 							<tr>
-								<th onClick={() => setItem('brand')} scope="col" className="hover:bg-red-100 tracking-tighter ipho:tracking-normal tbl:tracking-wider px-1 md:px-3">Marque</th>
-								<th onClick={() => setItem('price')} scope="col" className="hover:bg-red-100 tracking-tighter ipho:tracking-normal tbl:tracking-wider px-1 md:px-3">Prix au kg</th>
-								<th onClick={() => setItem('bobine_price')} scope="col" className="hover:bg-red-100 tracking-tighter ipho:tracking-normal tbl:tracking-wider px-1 md:px-3">Prix bobine</th>
-								<th onClick={() => setItem('material')} scope="col" className="hover:bg-red-100 tracking-tighter ipho:tracking-normal tbl:tracking-wider px-1 md:px-3">Matériaux</th>
-								<th onClick={() => setItem('bobine_weight')} scope="col" className="hover:bg-red-100 tracking-tighter ipho:tracking-normal tbl:tracking-wider px-1 md:px-3">Poid bobine</th>
-								<th onClick={() => setItem('quality')} scope="col" className="hover:bg-red-100 tracking-tighter ipho:tracking-normal tbl:tracking-wider px-1 md:px-3">Qualité</th>
+								<th onClick={() => setItem('brand')} scope="col" className="hover:bg-cuisse-sky tracking-tighter ipho:tracking-normal tbl:tracking-wider px-1 md:px-3">Marque</th>
+								<th onClick={() => setItem('price')} scope="col" className="hover:bg-cuisse-sky tracking-tighter ipho:tracking-normal tbl:tracking-wider px-1 md:px-3">Prix au kg</th>
+								<th onClick={() => setItem('bobine_price')} scope="col" className="hover:bg-cuisse-sky tracking-tighter ipho:tracking-normal tbl:tracking-wider px-1 md:px-3">Prix bobine</th>
+								<th onClick={() => setItem('material')} scope="col" className="hover:bg-cuisse-sky tracking-tighter ipho:tracking-normal tbl:tracking-wider px-1 md:px-3">Matériaux</th>
+								<th onClick={() => setItem('bobine_weight')} scope="col" className="hover:bg-cuisse-sky tracking-tighter ipho:tracking-normal tbl:tracking-wider px-1 md:px-3">Poid bobine</th>
+								<th onClick={() => setItem('quality')} scope="col" className="hover:bg-cuisse-sky tracking-tighter ipho:tracking-normal tbl:tracking-wider px-1 md:px-3">Qualité</th>
 							</tr>
 						</thead>
 						<tbody className="lg:transition duration-200 divide-y divide-indigo-900 align-middle min-w-full lg:text-2xl">

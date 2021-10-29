@@ -8,7 +8,7 @@ const Header = props => {
   return (
     <React.Fragment>
       <header className="sticky w-full">
-        <nav className="flex bg-indigo-700 text-white font-sans font-semibold sm:justify-center justify-end items-baseline">
+        <nav className="flex bg-cuisse-dark text-white font-sans font-semibold sm:justify-center justify-end items-baseline">
           <div className="sm:hidden flex py-2 mr-3">
           <span className="self-center mr-1">Menu</span>
           <img className="h-7 w-7" src="./img/burger.svg"/>
